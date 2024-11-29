@@ -137,8 +137,16 @@ header .nav_list li a{
 
 .hero_section .hero_btn a{
     padding: 15px;
-    font-size: 12px;
-    margin-top: 15px;
-    border-radius: 10px;
+    font-size: 14px;
+    border-radius: 0;
+    background: none;
+}
+
+.hero_section .hero_btn{
+    background: linear-gradient(#161A31, #06091F);
+    width: 97%;
+    margin: 15px auto;
+    border-radius: 5px;
+    padding: 15px;
 }
 }
