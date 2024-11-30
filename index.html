@@ -13,10 +13,10 @@
     <header class="header">
         <nav>
             <ul class="nav_list">
-                <li class="list_item"><a href="#">Home</a></li>
-                <li class="list_item"><a href="#">About</a></li>
+                <li class="list_item"><a href="./">Home</a></li>
+                <li class="list_item"><a href="#about">About</a></li>
                 <li class="list_item"><a href="#">Testimonies</a></li>
-                <li class="list_item"><a href="#">Contact</a></li>
+                <li class="list_item"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -25,13 +25,13 @@
             <p class="small_heading" data-aos="fade-down">Dynamic Web Magic with React.js and Next.js</p>
             <h1 data-aos="fade-right">Transforming Concepts into Seamless <span>User Experiences</span></h1>
             <p class="first_description" data-aos="fade-left">Hi! I’m Joseph Lamidi, a Front-End Developer based in Nigeria</p>
-            <p class="hero_btn" data-aos="fade-up"><a href="#">See my work <img src="./images/arrow-right-up.svg" alt=""></a></p>
+            <p class="hero_btn" data-aos="fade-up"><a href="#projects">See my work <img src="./images/arrow-right-up.svg" alt=""></a></p>
         </div>
 
         <!-- About Section -->
          <div class="about">
             <div class="first_flexbox" data-aos="fade-right">
-                <div class="top_side">
+                <div class="top_side"   id="about">
                     <div class="vector1_box">
                         <div class="vector"></div>
                         <p><i class='bx bxs-navigation' id="vector_icon"></i></p>
@@ -137,7 +137,7 @@
 
          <!-- projects Section  -->
           <div class="Projects">
-            <p class="top_heading">
+            <p class="top_heading" id="projects">
                 A small selection of <span>recent projects</span> 
             </p>
             <div class="projects_grid_container">
@@ -307,12 +307,25 @@
            <div class="contact">
             <p class="heading">Ready to take <span>your</span> digital presence to the next level?</p>
             <p class="description">Reach out to me today and let's discuss how I can help you achieve your goals.</p>
-            <p class="hero_btn"><a href="#">Contact Me Now <img src="./images/arrow-right-up.svg" alt=""></a></p>
+            <p class="hero_btn"><a href="https://wa.link/o49k4p/" id="contact">Contact Me Now <img src="./images/arrow-right-up.svg" alt=""></a></p>
            </div>
     </main>
 
     <br><br><br>
-    <footer></footer>
+
+    <!-- Footer Section - Last Section of the page -->
+    <footer>
+        <div>
+            <p class="copyright">&copy; <span id="footer_year"></span> Joseph Lamidi</p>
+        </div>
+        <div>
+            <a href="https://www.instagram.com/joseph_can_code/" target="_blank"  rel="noopener noreferrer"><i class='bx bxl-instagram' style='color:#ffffff'  ></i></a>
+            <a href="https://x.com/joseph_can_code" target="_blank"  rel="noopener noreferrer"><i class='bx bxl-twitter' style='color:#ffffff' ></i></a>
+            <a href="https://github.com/Jaycode01" target="_blank"  rel="noopener noreferrer"><i class='bx bxl-github' style='color:#ffffff' ></i></a>
+            <a href="https://wa.link/o49k4p/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-whatsapp' style='color:#ffffff' ></i></a>
+            <a href="https://www.linkedin.com/in/joseph-lamidi-9b83a4286/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin-square' style='color:#ffffff' ></i></a>
+        </div>
+    </footer>
 
     <!-- Script file linking -->
      <script src="./js/script.js"></script>

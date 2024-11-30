@@ -1,13 +1,4 @@
-AOS.init({
-    offset: 80,
-    delay: 200,
-    duration: 500,
-    easing: 'ease-in',
-    once: false,
-    mirror: false,
-    overflow: 'hidden'
-});
-
+// Copied Email
 const email = "josephlamidijoslam@gmail.com";
 
 const copyButton = document.getElementById("copyEmailButton");
@@ -29,3 +20,22 @@ copyButton.addEventListener("click", () => {
         confirmationMessage.style.display = "none";
     }, 2000);
 });
+
+// AOS Animation
+AOS.init({
+    offset: 80,
+    delay: 200,
+    duration: 500,
+    easing: 'ease-in',
+    once: false,
+    mirror: false,
+    overflow: 'hidden'
+});
+
+
+// Footer
+const footerYear = document.getElementById("footer_year");
+
+const currentYear = new Date().getFullYear();
+
+footerYear.textContent = currentYear;

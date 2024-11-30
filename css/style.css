@@ -798,6 +798,36 @@ header .nav_list li a{
 }
 
 
+/* Footer Styling */
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 200px;
+    align-items: center;
+}
+
+footer p{
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+footer div a{
+    gap: 25px;
+    text-decoration: none;
+    gap: 15px;
+    font-size: 30px;
+    margin-right: 20px;
+    border: 1px solid #05041F14;
+}
+
+footer div a i{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
 
 /* Media Query for Tablet View */
 @media (max-width:768px){
@@ -1065,5 +1095,13 @@ header .nav_list li a{
         text-align: center;
         margin: 0 25%;
         align-items: center;
+    }
+
+    footer{
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        text-align: center;
+        margin-top: 100px;
     }
 }
