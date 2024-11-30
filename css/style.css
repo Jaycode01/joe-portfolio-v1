@@ -549,20 +549,6 @@ header .nav_list li a{
     margin-top:40px;
 }
 
-.experience{
-    margin-top:40px;
-}
-
-.experience .experience_grid_container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(35%, 1fr));
-    justify-content: center;
-    padding: 5% 10% 3% 10%;
-    row-gap: 30px;
-    column-gap: 40px;
-    width: 100%;
-}
-
 .Projects .view_more{
     float: right;
     margin-right: 10%;
@@ -651,6 +637,64 @@ header .nav_list li a{
     font-size: 30px;
 }
 
+
+/* Experience Section Styling */
+.experience{
+    margin-top:40px;
+}
+
+.experience .experience_grid_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(35%, 1fr));
+    justify-content: center;
+    padding: 5% 10% 3% 10%;
+    row-gap: 30px;
+    justify-content: center;
+    column-gap: 40px;
+    width: 100%;
+}
+
+.experience .experience_grid_container .experience_box{
+    background: linear-gradient(#04071D, #0C0E23);
+    border: 1px solid #3637497D;
+    border-radius: 23px;
+    padding: 20px;
+    margin-top: 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.experience .experience_grid_container .experience_box .text_box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.experience .experience_grid_container .experience_box .text_box .heading{
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.experience .experience_grid_container .experience_box .text_box .description{
+    color: #BEC1DD;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.experience .top_heading{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+}
+
+.experience .top_heading span{
+    color: #CBACF9;
+}
+
+
 /* Media Query for Tablet View */
 @media (max-width:768px){
     .hero_section h1{
@@ -728,6 +772,16 @@ header .nav_list li a{
     .Projects .projects_grid_container{
         grid-template-columns: 1fr;
         padding: 5%;
+    }
+
+    .experience .experience_grid_container{
+        grid-template-columns: 1fr;
+        padding: 5%;
+    }
+
+    .experience .top_heading{
+        font-size: 25px;
+        padding: 0 25px;
     }
 }
 
@@ -836,4 +890,27 @@ header .nav_list li a{
     .Projects .projects_grid_container .project_container .bottom_line  i{
         font-size: 25px;
     }
+    
+    .experience .experience_grid_container{
+        width: 100%;
+        justify-content: start;
+        padding: 15px;
+    }
+
+
+    .experience .experience_grid_container .experience_box{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .experience .experience_grid_container .experience_box .text_box .heading{
+        font-size: 16px;
+    }
+
+    .experience .experience_grid_container .experience_box .text_box .description{
+        font-size: 12.5px;
+    }
+
+
+
 }
