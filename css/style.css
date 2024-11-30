@@ -12,7 +12,6 @@
 body, html{
     font-family: 'Montserrat';
     background-color: #000319;
-    min-height: 100vh;
     overflow-x: hidden;
 }
 
@@ -545,6 +544,113 @@ header .nav_list li a{
     color: #cd853f;
 }
 
+/* Projects Section Styling */
+.Projects{
+    margin-top:40px;
+}
+
+.experience{
+    margin-top:40px;
+}
+
+.experience .experience_grid_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(35%, 1fr));
+    justify-content: center;
+    padding: 5% 10% 3% 10%;
+    row-gap: 30px;
+    column-gap: 40px;
+    width: 100%;
+}
+
+.Projects .view_more{
+    float: right;
+    margin-right: 10%;
+}
+
+.Projects .view_more a{
+    color: #C1C2D3;
+    text-decoration: none;
+}
+
+.Projects .projects_grid_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(35%, 1fr));
+    justify-content: center;
+    padding: 5% 10% 3% 10%;
+    row-gap: 30px;
+    column-gap: 40px;
+    width: 100%;
+}
+
+.Projects .top_heading{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+}
+
+.Projects .top_heading span{
+    color: #CBACF9;
+}
+
+.Projects .projects_grid_container .project_container{
+    background: linear-gradient(#04071D, #0C0E23);
+    border: 1px solid #3637497D;
+    border-radius: 23px;
+    padding: 20px;
+    margin-top: 0;
+}
+
+.Projects .projects_grid_container .project_container .image_box{
+    width: 95%;
+    margin-left: 3%;
+    padding: 20px;
+    background: #13162D;
+    border-radius: 14px;
+}
+
+.Projects .projects_grid_container .project_container img{
+    width: 95%;
+    margin-left: 3%;
+    border-radius: 10px;
+    rotate: 2.7deg;
+}
+
+.Projects .projects_grid_container .project_container .heading{
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 3%;
+    margin-top: 10px;
+}
+
+.Projects .projects_grid_container .project_container .description{
+    color: #BEC1DD;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-left: 3%;
+}
+
+.Projects .projects_grid_container .project_container .bottom_line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+    margin-left: 2%;
+    margin-top: 15px;
+}
+
+.Projects .projects_grid_container .project_container .bottom_line .technologies_used{
+    display: flex;
+    gap: 10px;
+}
+
+.Projects .projects_grid_container .project_container .bottom_line  i{
+    font-size: 30px;
+}
+
 /* Media Query for Tablet View */
 @media (max-width:768px){
     .hero_section h1{
@@ -604,6 +710,24 @@ header .nav_list li a{
         padding: 0;
         height: 30%;
         gap: 2px;
+    }
+
+    .Projects{
+        margin-top:70px;
+    }
+
+    .Projects .view_more{
+        margin-right: 5%;
+    }
+
+    .Projects .top_heading{
+        font-size: 25px;
+        padding: 0 25px;
+    }
+
+    .Projects .projects_grid_container{
+        grid-template-columns: 1fr;
+        padding: 5%;
     }
 }
 
@@ -688,5 +812,28 @@ header .nav_list li a{
         gap: 5px;  
         justify-content: left;
         width: 60%;
+    }
+
+    .Projects .view_more{
+        margin-right: 15px;
+    }
+
+    .Projects .projects_grid_container{
+        width: 100%;
+        justify-content: start;
+        padding: 15px;
+    }
+
+    .Projects .projects_grid_container .project_container{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .Projects .projects_grid_container .project_container .bottom_line{
+        margin-top: 30px;
+    }
+
+    .Projects .projects_grid_container .project_container .bottom_line  i{
+        font-size: 25px;
     }
 }
