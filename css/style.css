@@ -9,10 +9,11 @@
     box-sizing: border-box;
 }
 
-body{
+body, html{
     font-family: 'Montserrat';
     background-color: #000319;
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 
@@ -26,7 +27,7 @@ header .nav_list{
     width: 400px;
     padding: 18px 25px;
     gap: 25px;
-    border: 1px solid linear-gradient(#6971A229, #272A3C5E); 
+    border: 1px solid #3637496E;
     border-radius: 13px;
     margin: 50px auto;
 }
@@ -45,6 +46,8 @@ header .nav_list li a{
 /* Main styling */
 .hero_section{
     margin-top: 100px;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .hero_section .small_heading{
@@ -79,7 +82,8 @@ header .nav_list li a{
 .hero_section .hero_btn{
     text-align: center;
     margin-top: 40px;
-    border: 2px solid  #272A3C80;    
+    overflow: hidden;
+    padding: 20px;
 }
 
 .hero_section .hero_btn a{
@@ -107,12 +111,15 @@ header .nav_list li a{
     width: 100%;
     margin: 10rem auto;
     gap: 50px;
+    overflow-y: hidden;
+
 }
 
 .about .first_flexbox{
     border-radius: 20px;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
     gap: 30px;
     height: 500px;
     width: 620px;
@@ -189,7 +196,15 @@ header .nav_list li a{
     display: flex;
     flex-direction: column;
     width: 35%;
+    overflow: hidden;
+    scrollbar-width: none;
     gap: 10px;
+    -ms-overflow-style: none;
+}
+
+.second_flexbox .right_side .first_column::-webkit-scrollbar,
+.second_flexbox .right_side .second_column::-webkit-scrollbar {
+    display: none; 
 }
 
 .second_flexbox .top_box{
@@ -252,6 +267,7 @@ header .nav_list li a{
 .second_flexbox .bottom_box .right_side{
     display: flex;
     flex-direction: row;
+    margin-right: 20px;
     gap: 10px;
 }
 
@@ -286,9 +302,10 @@ header .nav_list li a{
     border-radius: 7px;
     height: 40px;
     width: 100px;
+    overflow-x: hiddens;
     padding-top: 12px;
     margin-top: 15px;
-
+    
 }
 
 .second_flexbox .right_side .second_column{
@@ -318,6 +335,216 @@ header .nav_list li a{
     font-size: 23px;
 }
 
+.about_down_side{
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+    gap: 30px;
+    justify-content: center;
+}
+
+.about_down_side .first_box{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.about_down_side .first_box .top{
+    background-color: #06091F;
+    border: 1px solid #3637497D;
+    border-radius: 20px;
+    width: 350px;
+    height: 180px;
+}
+
+.about_down_side .first_box  .top p{
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: left;
+    padding: 25px 0 0 25px;
+}
+
+
+.about_down_side .first_box  .top .frame_image{
+    background: linear-gradient(#3637496E, #3637497D);
+    width: 175px;
+    height: 90px;
+    border-radius: 10px 10px 0 0;
+    padding: 15px;
+    float: right;
+    border: 1px solid #FFFFFF1A;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: #FFFFFF0D;
+    overflow-y: hidden;
+}
+
+.about_down_side .first_box  .top .frame_image .first_row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+}
+
+.about_down_side .first_box  .top .frame_image .first_row div:nth-child(1){
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background: #FFFFFF0D;
+    border: 1px solid #FFFFFF1A;
+}
+
+.about_down_side .first_box  .top .frame_image .first_row div:nth-child(2){
+    width: 50px;
+    height: 10px;
+    border-radius: 3px;
+    background: #FFFFFF0D;
+    border: 1px solid #FFFFFF1A;
+}
+
+.about_down_side .first_box  .top .frame_image .first_row div:nth-child(3){
+    width: 30px;
+    height: 10px;
+    border-radius: 3px;
+    background: #FFFFFF0D;
+    border: 1px solid #FFFFFF1A;
+}
+
+.about_down_side .first_box  .top .frame_image .second_row{
+    display: flex;
+    margin-top: 7px;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.about_down_side .first_box  .top .frame_image .second_row div:nth-child(1){
+    height: 10px;
+    width: 85%;
+    background-color: #FFFFFF0D;
+    border: 1px solid #FFFFFF1A;
+    border-radius: 3px;
+}
+
+.about_down_side .first_box  .top .frame_image .second_row div:nth-child(2){
+    height: 10px;
+    width: 30%;
+    border: 1px solid #FFFFFF1A;
+    background-color: #FFFFFF0D;
+    border-radius: 3px;
+}
+
+
+.about_down_side .bottom{
+    color: #fff;
+    width: 350px;
+    background: linear-gradient(#06091F, #ffffff41);
+    border-radius: 20px;
+    height: 175px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    border: 1px solid #FFFFFF1A;
+    padding: 20px 0 15px 0;
+}
+
+.about_down_side .bottom p{
+    font-size: 21px;
+    text-align: center;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.about_down_side .bottom .copy-btn {
+    padding: 12px 22px;
+    font-size: 14px;
+    background: linear-gradient(#161A31, #06091F);
+    border: 1px solid #272A3C80;
+    font-family: inherit;
+    color: #E4ECFF;
+    font-weight: 500;
+    border-radius: 7px;
+    width: 75%;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.about_down_side .bottom .confirmation-message {
+    margin-top: 10px;
+    color: rgba(10, 214, 10, 0.918);
+    text-align: left;
+    font-size: 14px;
+    display: none; /* Hidden by default */
+}
+
+.about_down_side .second_box{
+    width: 650px;
+    border: 1px solid #FFFFFF1A;
+    display: flex;
+    flex-direction: row;
+    background-color: inherit;
+    height: 360px;
+    border-radius: 20px;
+}
+
+.about_down_side .second_box .text_box{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    width: 50%;
+    align-items: center;
+    height: 70%;
+    padding-top: 100px;
+    justify-content: center;
+}
+
+.about_down_side .second_box .text_box .small_text{
+    font-weight: 400;
+    font-size: 14px;
+    color: #E4ECFF;
+    text-transform: uppercase;
+}
+
+.about_down_side .second_box .text_box .large_text{
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    align-content: center;
+    padding-left: 20%;
+}
+
+.about_down_side .second_box .image_box{
+    width: 450px;
+    height: 230px;
+    margin-top: 130px;
+    margin-left: 120px;
+    background-color: rgba(255, 255, 255, 0.2);
+    opacity: 0.5;
+    color: #fff;
+    border-radius: 20px 0 20px 20px;
+    padding: 10px;
+}
+
+.about_down_side .second_box .image_box p{
+    color: #e25940;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.about_down_side .second_box .image_box p.comment{
+    color: #808080;
+}
+
+.about_down_side .second_box .image_box p .span1{
+    color: #dda0dd;
+}
+
+.about_down_side .second_box .image_box p .span2{
+    color: #cd853f;
+}
+
 /* Media Query for Tablet View */
 @media (max-width:768px){
     .hero_section h1{
@@ -332,21 +559,51 @@ header .nav_list li a{
         flex-direction: column;
         justify-content: center;
     }
-
+    
     .about .first_flexbox{
+        width: 95%;
         margin: 0 auto;
-        width: 98%;
         height: fit-content;
         overflow: hidden;
     }
-
+    
     .about .first_flexbox .text_box p{
         font-size: 20px;
     }
-
+    
     .about .second_flexbox{
         width: 95%;
         margin-left: 2%;
+    }
+
+    .about_down_side{
+        flex-direction: column;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .about_down_side .first_box{
+        margin: 0 auto;
+    }
+
+    .about_down_side .second_box{
+        flex-direction: column;
+        height: fit-content;
+        width: 100%;
+        gap: 10px;
+        padding-top: 15px;
+    }
+
+    .about_down_side .second_box .image_box{
+        width: 80%;
+        float: right;
+        margin: 20px 0 0 20%;
+    }
+
+    .about_down_side .second_box .text_box{
+        padding: 0;
+        height: 30%;
+        gap: 2px;
     }
 }
 
@@ -362,7 +619,7 @@ header .nav_list li a{
     header .nav_list{
         font-size: 10px;
     }
-
+    
     .hero_section{
         margin-top: 70px;
     }
@@ -379,7 +636,7 @@ header .nav_list li a{
         font-size: 15px;
         padding: 0 10px;
     }
-
+    
     .hero_section .hero_btn a{
         padding: 15px;
         font-size: 14px;
@@ -389,10 +646,11 @@ header .nav_list li a{
 
     .hero_section .hero_btn{
         background: linear-gradient(#161A31, #06091F);
-        width: 97%;
+        width: 90%;
         margin: 15px auto;
         border-radius: 5px;
-        padding: 15px;
+        padding: 15px 0;
+        border: 2px solid  #272A3C80;    
     }
 
     .about .vector1_box{
@@ -417,7 +675,18 @@ header .nav_list li a{
         margin-top: 100px;
     }
 
+    .about .second_flexbox{
+        width: 93%;
+        overflow: hidden;
+    }
+
     .second_flexbox .top_box .text{
         font-size: 18px;
+    }
+
+    .about_down_side .second_box .text_box{
+        gap: 5px;  
+        justify-content: left;
+        width: 60%;
     }
 }
