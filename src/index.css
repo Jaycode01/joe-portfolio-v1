@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Plus Jarkatar";
+  src: url("fonts/PlusJakartaSans-Regular.woff2") format("woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Plus Jarkatar";
+  font-weight: 400;
+}
