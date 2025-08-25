@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Plus Jarkatar";
-  src: url("fonts/PlusJakartaSans-Regular.woff2") format("woff2");
+  font-family: "Poppins";
+  src: url("fonts/Poppins-Regular.woff2") format("woff2");
 }
 
 * {
@@ -10,6 +10,7 @@
 }
 
 body {
-  font-family: "Plus Jarkatar";
+  font-family: "Poppins";
   font-weight: 400;
+  background-color: #e5e5e5;
 }
