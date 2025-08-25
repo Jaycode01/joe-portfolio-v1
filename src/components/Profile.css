@@ -11,8 +11,8 @@
 }
 
 .profile-pic-bg {
-  width: 200px;
-  height: 200px;
+  width: 170px;
+  height: 170px;
   border: 3px solid hsl(199, 86%, 48%);
   border-radius: 50%; /* Makes it perfectly circular */
   box-shadow: 0 0 10px 5px hsl(199, 86%, 50%);
@@ -22,7 +22,7 @@
 }
 
 .profile-pic-bg img {
-  width: 180px;
+  width: 150px;
   margin: auto;
   background: hsl(199, 86%, 48%);
   border-radius: 50%;
@@ -30,79 +30,34 @@
 
 .name {
   color: #3d3d3d;
+  font-family: "Itim";
+  font-size: 30px;
+  text-transform: uppercase;
 }
 
 .role {
   color: #575757;
   font-size: 18px;
+  margin-bottom: 10px;
 }
 
-.social-handles {
+.contact-mail {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 15px;
-  margin-top: 15px;
-}
-
-.social-handles img {
-  width: 25px;
-}
-
-.overview {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-}
-
-.overview p {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 150px;
-  color: #575757;
-  text-align: center;
-}
-
-.overview p span:first-child {
-  font-size: 20px;
-  font-weight: 600;
-  color: #3d3d3d;
-}
-
-.cta {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.cta > .download-cv {
-  background: hsl(199, 86%, 48%);
-  border: none;
+  gap: 3px;
   font-family: inherit;
-  font-size: 15px;
-  padding: 17px 35px;
-  border-radius: 4px;
-  color: #3d3d3d;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  cursor: pointer;
-  gap: 5px;
-}
-
-.cta > .download-cv > img {
-  height: 15px;
-}
-
-.cta > .contact {
-  background: hsl(0, 0%, 100%);
+  background: inherit;
   border: none;
+}
+
+.contact-mail > span:nth-child(2) {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.contact-mail a {
   text-decoration: none;
   color: #3d3d3d;
-  font-family: inherit;
-  padding: 18px 50px;
-  border-radius: 4px;
-  font-size: 15.5px;
-  display: inline-block;
+  font-size: 14px;
 }
