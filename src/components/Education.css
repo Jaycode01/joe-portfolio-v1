@@ -1,0 +1,40 @@
+.education {
+  margin-top: 25px;
+  padding-top: 25px;
+  border-top: 1.5px solid #575757;
+}
+
+.education h2 {
+  font-family: "Itim";
+  text-transform: uppercase;
+  color: #3d3d3d;
+  font-size: 22px;
+}
+
+.education-one {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.education-one div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.education-one .session-year {
+  font-size: 18.5px;
+  color: #575757;
+}
+
+.education-one .course {
+  font-size: 20px;
+  color: #3d3d3d;
+}
+
+.education-one .location {
+  font-size: 16px;
+  color: #3d3d3d;
+}
