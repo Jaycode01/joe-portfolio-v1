@@ -12,9 +12,8 @@ export default function Profile() {
         <p className="role">Software Engineer</p>
         <button className="contact-mail">
           <span>
-            <SiGmail size={22} style={{ color: "#EA4335" }} />
+            <SiGmail size={18} style={{ color: "#EA4335" }} />
           </span>
-          <span>:</span>
           <a
             href="mailto:josephlamidijoslam@gmail.com"
             className="contact-mail"

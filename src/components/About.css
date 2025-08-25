@@ -1,0 +1,16 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+h2 {
+  font-family: "Itim";
+  text-transform: uppercase;
+  color: #3d3d3d;
+}
+
+p {
+  color: #575757;
+}
