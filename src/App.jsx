@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Experience from "./components/Experience";
 import Profile from "./components/Profile";
 
 export default function App() {
@@ -6,6 +7,7 @@ export default function App() {
     <>
       <Profile />
       <About />
+      <Experience />
     </>
   );
 }
