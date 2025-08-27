@@ -1,4 +1,5 @@
 import "./Education.css";
+import "./fonts.css";
 
 export default function Education() {
   return (

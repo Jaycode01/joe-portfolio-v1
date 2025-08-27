@@ -1,4 +1,5 @@
 import "./Experience.css";
+import "./fonts.css";
 
 export default function Experience() {
   return (

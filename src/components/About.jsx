@@ -1,4 +1,5 @@
 import "./About.css";
+import "./fonts.css";
 
 export default function About() {
   return (

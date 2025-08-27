@@ -1,5 +1,6 @@
 import { SiGmail } from "react-icons/si";
 import "./Profile.css";
+import "./fonts.css";
 
 export default function Profile() {
   return (
