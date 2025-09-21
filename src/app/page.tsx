@@ -1,4 +1,7 @@
 import React from "react";
+import Image from "next/image";
+import NexonDp from "../../public/images/nexon-dp.jpeg";
+import "./page.module.css";
 import Head from "next/head";
 
 export default function Home() {
@@ -11,7 +14,21 @@ export default function Home() {
         />
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
       </Head>
-      <div>Nexon</div>
+      <main>
+        <section className="intro_section">
+          <div className="profile">
+            <Image
+              src={NexonDp}
+              alt="nexon-profile-pic"
+              className="profile-image"
+            />
+            <div>
+              <h1 className="name">Nexon</h1>
+              <p className="role">Web Engineer</p>
+            </div>
+          </div>
+        </section>
+      </main>
     </>
   );
 }

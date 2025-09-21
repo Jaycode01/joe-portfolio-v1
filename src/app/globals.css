@@ -1,10 +1,45 @@
 @font-face {
-  font-family: "Open Sans";
-  src: url("../../public/fonts/OpenSans-Regular.woff2") format("woff2");
+  font-family: "Poppins";
+  src: url("../../public/fonts/Poppins-Regular.woff2") format("woff2");
   font-weight: 400;
   font-display: swap;
 }
 
+@font-face {
+  font-family: "IBM Plex";
+  src: url("../../public/fonts/IBMPlexMono-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  font-family: "Open Sans", fantasy;
+  font-family: "Poppins", fantasy;
+  background-color: #111518;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  text-align: left;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }

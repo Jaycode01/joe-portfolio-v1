@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Nexon | Software Developer",
+  title: "Nexon | Senior Frontend Developer.",
   description:
     "A conversion-based software developer, I don't only build pretty softwares - they perform too.",
 };
