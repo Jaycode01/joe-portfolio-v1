@@ -5,6 +5,20 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Galindo";
+  src: url("../../public/fonts/Galindo-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Short Stack";
+  src: url("../../public/fonts/ShortStack-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -15,4 +29,40 @@ body {
   font-family: "Montserrat", fantasy;
   background-color: #fafafa;
   color: #0a0a0a;
+  width: 100%;
+  padding: 5% 0;
+}
+
+.main {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.profile {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.profile .dp {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.profile div .name {
+  display: flex;
+  gap: 5px;
+  font-family: "Galindo";
+  align-items: center;
+}
+
+.profile div .role {
+  font-family: "Short Stack";
 }
