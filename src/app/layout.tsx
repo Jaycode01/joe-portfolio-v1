@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Nexon | Senior Frontend Developer.",
+  title: "Nexon | Web Engineer",
   description:
-    "A conversion-based software developer, I don't only build pretty softwares - they perform too.",
+    "I am a conversion-based website and web-app developer, I don't only build pretty softwares - they perform too.",
 };
 
 export default function RootLayout({
