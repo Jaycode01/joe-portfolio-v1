@@ -1,0 +1,27 @@
+{
+  "experiences": [
+    {
+      "key": "1",
+      "period": "Dec 2023 - Sep 2024",
+      "role": "Frontend Developer",
+      "company": "Genius Techies",
+      "description": "As a Frontend Developer with Genius Techies, I collaborated with a passionate team dedicated to driving digital transformation in Ogun State communities. My primary focus was creating visually compelling websites and web applications that combined eye-catching designs with sophisticated functionality and animations. A key achievement was leading the development of web solutions aimed at revolutionizing the digital ecosystem for local high schools. I transformed complex educational requirements into intuitive interfaces that enhanced learning experiences while building robust, interactive features. This experience not only advanced my technical expertise in frontend development but also demonstrated how technology can create meaningful impact in educational environments and local communities.",
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React.js",
+        "Tailwind CSS",
+        "Chart.js"
+      ]
+    },
+    {
+      "key": "2",
+      "period": "Jan 2025 - April 2025",
+      "role": "Web Developer",
+      "company": "HNG",
+      "description": "As a Web Developer Intern at HNG, I am gaining valuable experience in a dynamic and team-oriented environment where I focus on frontend development. My role involves taking design ideas and turning them into functional websites and applications that are both responsive and user-friendly. Working alongside a skilled group of developers, I engage in all stages of the development process, from planning and coding to testing and launching. This experience has helped me improve my coding skills and learn the essentials of using version control systems like Git. I have developed a strong understanding of key web technologies, such as HTML, CSS, and JavaScript, as well as popular frameworks and libraries that make websites interactive. Every day, I face challenges that require me to optimize website performance, ensure compatibility across different browsers, and follow best practices, which adds to the significance of the projects I contribute to. This internship is not only enhancing my technical ability but also improving my problem-solving skills, time management, and adaptability in a remote, agile work environment. Overall, it is solidifying my enthusiasm for creating innovative digital solutions that have a real-world impact.",
+      "stack": ["Next.js", "HTML", "CSS", "Tailwind CSS", "React.js", "Figma"]
+    }
+  ]
+}
