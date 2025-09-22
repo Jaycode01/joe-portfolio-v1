@@ -65,4 +65,44 @@ body {
 
 .profile div .role {
   font-family: "Short Stack";
+  font-weight: 400;
+}
+
+/* Experiecnes section - a little complicated/complex to deal with */
+
+.experiences {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 100px;
+}
+
+.experiences > .experience {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 3fr;
+  align-items: start;
+}
+
+.experiences > .experience .period {
+  color: #2a6fbd;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.experiences > .experience > .period,
+.role,
+.organization {
+  font-size: 17px;
+  font-weight: 500;
+  font-family: "Galindo";
+}
+
+.experiences > .experience .role-and-org {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
 }
