@@ -18,6 +18,13 @@ const Experiences = () => {
               <p className="organization">{experience.company}</p>
             </div>
             <p className="description">{experience.description}</p>
+            <div className="stack">
+              {experience.stack.map((techStack, index) => (
+                <p className="tech-stack" key={index}>
+                  {techStack}
+                </p>
+              ))}
+            </div>
           </div>
         </div>
       ))}

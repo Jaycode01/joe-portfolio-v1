@@ -106,3 +106,22 @@ body {
   align-items: center;
   margin-bottom: 10px;
 }
+
+.experiences > .experience .stack {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.experiences > .experience .stack > .tech-stack {
+  padding: 7px 20px;
+  background-color: #2a6fbd5d;
+  border: 1px solid #2a6fbd;
+  color: #2a6fbd;
+  font-weight: 500;
+  font-family: "Galindo";
+  font-size: 14px;
+}
