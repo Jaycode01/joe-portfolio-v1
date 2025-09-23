@@ -128,6 +128,72 @@ body {
   border: 1px solid #2a6fbd;
   color: #2a6fbd;
   font-weight: 500;
-  font-family: "Galindo";
+  font-family: "Short Stack";
   font-size: 14px;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  margin-top: 100px;
+  padding-top: 100px;
+  border-top: 1px solid #808080a8;
+}
+
+.projects > .project {
+  background-color: #fafafa;
+  border: 1px solid #2a6fbd;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.projects > .project > .head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.projects > .project > .head > .name {
+  font-family: "Galindo";
+  font-weight: 500;
+}
+
+.projects > .project > .head > .project-url {
+  color: #2a6fbd;
+}
+
+.projects > .project > .description {
+  font-size: 15px;
+}
+
+.projects > .project .stack {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 10px;
+  font-size: 14px;
+  font-family: "Short Stack";
+  color: #2a6fbd;
+}
+
+.see-more {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  justify-self: flex-end;
+  color: #2a6fbd;
+  text-decoration: none;
+  font-size: 14px;
+  width: fit-content;
+  float: right;
+}
+
+.see-more:hover {
+  border-bottom: 1px solid #2a6fbd;
 }

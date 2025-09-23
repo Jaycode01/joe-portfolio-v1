@@ -32,7 +32,7 @@
       "stack": ["React.js", "Tailwind CSS", "Chart.js"]
     },
     {
-      "name": "Ansswer24",
+      "name": "Answer24",
       "url": "https://answer24.vercel.app",
       "description": "Answer24 is an AI-powered marketing automation platform that helps businesses (like webshops) get more sales by using smart chatbots, cashback rewards, and personalized AI systems. I collaborated with other frontend developers and backend developer on this project to develop UI fiting the description of the project manager and deliver within time range.",
       "stack": ["Next.js", "Tailwind CSS"]
