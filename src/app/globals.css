@@ -197,3 +197,13 @@ body {
 .see-more:hover {
   border-bottom: 1px solid #2a6fbd;
 }
+
+/* Footer section */
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 100px;
+  gap: 20px;
+  justify-content: center;
+}

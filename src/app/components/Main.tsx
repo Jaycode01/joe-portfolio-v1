@@ -1,38 +1,41 @@
 import React from "react";
 import Intro from "./Intro";
 import Experiences from "./Experiences";
-import ProjectsData from "../data/projects.json";
+import Projects from "./Projects";
 import Link from "next/link";
-import { ArrowRight, ArrowUpRight } from "lucide-react";
+import { Github, Instagram, Twitter } from "lucide-react";
+import { LiaDiscord } from "react-icons/lia";
+import { CiLinkedin } from "react-icons/ci";
 
 const Main = () => {
   return (
     <div className="main">
       <Intro />
       <Experiences />
-      <section className="projects">
-        {ProjectsData.projects.map((project, index) => (
-          <div className="project" key={index}>
-            <div className="head">
-              <h3 className="name">{project.name}</h3>
-              <Link href={project.url} className="project-url">
-                <ArrowUpRight />
-              </Link>
-            </div>
-            <p className="description">{project.description}</p>
-            <div className="stack">
-              {project.stack.map((projectStack, index) => (
-                <p className="project-stack" key={index}>
-                  {projectStack}
-                </p>
-              ))}
-            </div>
-          </div>
-        ))}
-        <Link href="https://github.com/Jaycode01" className="see-more">
-          See More <ArrowRight size={20} />
+      <Projects />
+      <footer className="footer">
+        <Link href="https://instagram.com/nexon.codes/" target="_blank">
+          <Instagram color="#E4405F " />
         </Link>
-      </section>
+        <Link href="https://x.com/nexon_codes/" target="_blank">
+          <Twitter color="#1DA1F2 " />
+        </Link>
+        <Link
+          href="https://discord.com/users/channels1298910554517147670/"
+          target="_blank"
+        >
+          <LiaDiscord color="#5865F2" size={27} />
+        </Link>
+        <Link
+          href="https://linkedin.com/in/joseph-lamidi-9b83a4286/"
+          target="_blank"
+        >
+          <CiLinkedin color="#0077B5" size={27} />
+        </Link>
+        <Link href="https://github.com/Jaycode01" target="_blank">
+          <Github color="#24292e" />
+        </Link>
+      </footer>
     </div>
   );
 };
