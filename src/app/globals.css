@@ -174,11 +174,13 @@ body {
 .projects > .project .stack {
   display: flex;
   flex-direction: row;
-  gap: 30px;
+  row-gap: 10px;
+  column-gap: 30px;
   margin-top: 10px;
   font-size: 14px;
   font-family: "Short Stack";
   color: #2a6fbd;
+  flex-wrap: wrap;
 }
 
 .see-more {
@@ -206,4 +208,49 @@ body {
   margin-top: 100px;
   gap: 20px;
   justify-content: center;
+}
+
+@media screen and (max-width: 1500px) {
+  .main {
+    width: 70%;
+  }
+
+  .experiences {
+    margin-top: 50px;
+    padding-top: 50px;
+  }
+
+  .experiences > .experience .period {
+    align-items: start;
+  }
+
+  .projects {
+    margin-top: 50px;
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .main {
+    width: 90%;
+  }
+
+  .name {
+    font-size: 22px;
+  }
+
+  .profile .dp {
+    width: 100px;
+    height: 100px;
+  }
+
+  .role {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .experiences > .experience {
+    grid-template-columns: 1fr;
+  }
 }
