@@ -8,7 +8,7 @@ const Experiences = () => {
       {ExperiencesData.experiences.map((experience, index) => (
         <div className="experience" key={index}>
           <p className="period">
-            <Calendar className="calendar-icon" />
+            <Calendar className="calendar-icon" size={20} />
             <span>{experience.period}</span>
           </p>
           <div className="experience-details">

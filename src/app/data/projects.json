@@ -1,0 +1,41 @@
+{
+  "projects": [
+    {
+      "name": "OurAgentNG",
+      "url": "https://our-agent-ng.vercel.app/",
+      "description": "OurAgentNG is a digital real estate marketplace designed to simplify the process of buying, renting, and selling properties. OurAgentNG bridge the gap between property owners, real estate agents, and prospective buyers or tenants by providing a transparent and seamless platform. I collaborated as a frontend developer with another developer to bring this idea to life.",
+      "stack": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "MIRA",
+      "url": "https://mira-gray.vercel.app/",
+      "description": "MIRA LUXS is a fashion retail brand dedicated to curating the finest selection of stylish and high-quality clothing. Based in Lagos, Nigeria. I built the frontend/UI of this ecommerce platform using the basic foundation stack of frontend.",
+      "stack": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "DevCollab",
+      "url": "https://devcollab-eight.vercel.app/",
+      "description": "DevCollab is a SaaS project that helps developers collaborate as team and manage tasks. I built the whole of this web application - both frontend and backend.",
+      "stack": [
+        "Next.js",
+        "Tailwind CSS",
+        "Node.js",
+        "Express.js",
+        "Socket.IO",
+        "Firebase"
+      ]
+    },
+    {
+      "name": "UHS Website",
+      "url": "https://unityhighschool.vercel.app/",
+      "description": "This is a website for an high school that shows everything about the high school, the school current informaion, things vsisitors/parents needs toknow about the schhol be it news, an alert or a new event coming up. I used my skill to bring this thought to live and makethose things easy to know about and have access to.",
+      "stack": ["React.js", "Tailwind CSS", "Chart.js"]
+    },
+    {
+      "name": "Ansswer24",
+      "url": "https://answer24.vercel.app",
+      "description": "Answer24 is an AI-powered marketing automation platform that helps businesses (like webshops) get more sales by using smart chatbots, cashback rewards, and personalized AI systems. I collaborated with other frontend developers and backend developer on this project to develop UI fiting the description of the project manager and deliver within time range.",
+      "stack": ["Next.js", "Tailwind CSS"]
+    }
+  ]
+}
