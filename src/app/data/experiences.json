@@ -21,7 +21,15 @@
       "role": "Web Developer",
       "company": "HNG",
       "description": "As a Web Developer Intern at HNG, I am gaining valuable experience in a dynamic and team-oriented environment where I focus on frontend development. My role involves taking design ideas and turning them into functional websites and applications that are both responsive and user-friendly. Working alongside a skilled group of developers, I engage in all stages of the development process, from planning and coding to testing and launching. This experience has helped me improve my coding skills and learn the essentials of using version control systems like Git. I have developed a strong understanding of key web technologies, such as HTML, CSS, and JavaScript, as well as popular frameworks and libraries that make websites interactive. Every day, I face challenges that require me to optimize website performance, ensure compatibility across different browsers, and follow best practices, which adds to the significance of the projects I contribute to. This internship is not only enhancing my technical ability but also improving my problem-solving skills, time management, and adaptability in a remote, agile work environment. Overall, it is solidifying my enthusiasm for creating innovative digital solutions that have a real-world impact.",
-      "stack": ["Next.js", "HTML", "CSS", "Tailwind CSS", "React.js", "Figma"]
+      "stack": [
+        "Next.js",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Tailwind CSS",
+        "React.js",
+        "Figma"
+      ]
     }
   ]
 }
