@@ -40,7 +40,8 @@
     {
       "name": "Pookers",
       "url": "https://pookers.com.ng",
-      "description": "Pookers is a website for a literary & editing "
+      "description": "Pookers is a website for a literary & editing ",
+      "stack": ["Next.js", "Tailwind CSS", "Nodemailer", "Basic SEO"]
     }
   ]
 }
