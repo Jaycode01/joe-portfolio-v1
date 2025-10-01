@@ -39,8 +39,8 @@
     },
     {
       "name": "Pookers",
-      "url": "https://pookers.com.ng",
-      "description": "Pookers is a website for a literary & editing ",
+      "url": "www.pookers.com.ng",
+      "description": "Pookers - Professional writing, editing, and ghostwriting services. From essays to speeches, CVs to manuscripts. We help you communicate with clarity and impact.",
       "stack": ["Next.js", "Tailwind CSS", "Nodemailer", "Basic SEO"]
     }
   ]
